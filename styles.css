@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: Montserrat;
+}
+
+:root{
+    --primary-color:#b9090b;
+    --secondary-color: aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    background-color: var(--primary-color);
+}
+
+
+/*HEADER SECTION*/
+header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/*COMING SOON*/
+h5 {
+    color: var(--secondary-color);
+    font-size: 10px;
+}
+
+/*WHAT'S NEW SECTION*/
+h1 {
+    color: var(--secondary-color);
+    text-align: center;
+    word-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.row {
+    border:var(--primary-color);
+    border-radius: unset;
+}
+
+.card {
+    margin:auto auto 0.8rem 0.8rem;
+    width: 18rem;
+    transition: transform 1s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/*MOST POPULAR SECTION*/
+h4 {
+    color: var(--secondary-color);
+    text-align: left;
+    letter-spacing: 1.5px;
+    font-size: 5px;
+}
+
+#mostPopular p, h6 {
+    color: var(--secondary-color);
+    justify-content: left;
+    text-align: left;
+}
+
+.movie {
+    border: 1px solid var(--secondary-color);
+}
+
+.checked {
+    color: orange;
+  }
+
+ .series {
+     width: 200px;
+     transform: width 10s ease;
+ }
+ .series:hover{
+     width: 250px;
+     height: 350px;
+ }
+
+ #series p {
+     color: var(--secondary-color);
+ }
+
+/*FOOTER*/
+#footer-top {
+    border-top: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1px auto auto 2px;
+}
+
+.span-1-of-2 {
+    width: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-nav li {
+    display: inline-block;
+    color: black;
+}
+
+.social-links li{
+    display: inline-block;
+    color: black
+}
